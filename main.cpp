@@ -34,8 +34,8 @@ int main()
 {
 	GameState currentState = MAIN_MENU;
 	bool running = true;
-	auto allItems = loadItemsFromCSV("item_data.csv");
-	vector<Monster> allMonsters = loadMonstersFromCSV("monster_list.csv");
+	auto allItems = loadItemsFromCSV("data/item_data.csv");
+	vector<Monster> allMonsters = loadMonstersFromCSV("data/monster_list.csv");
 	Player player("Bob", 5, 14, 1);
 	int currentDepth = 0;
 
@@ -145,12 +145,14 @@ int main()
 							}
 							else if (cmd == "inventory")
 							{
+								clearScreen();
 								cout << "Inventory:\n";
 								cout << "=======================================" << endl;
 								for (Item it : player.getPlayerInventory())
 								{
 									cout << it.getName() << endl;
 								}
+								pressAnyKey();
 								continue; // reprompt without going to monster turn
 							}
 							else if (cmd == "examine")
