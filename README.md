@@ -52,6 +52,7 @@ Controls appear in-game (`attack`, `use <item>`, `inventory`, etc.).
 ```
 assets/           ASCII art
 data/             items.csv, monsters.csv, …
+src/              headers and cpp's
 *.cpp *.h         source code
 Makefile
 README.md
