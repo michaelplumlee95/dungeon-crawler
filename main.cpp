@@ -494,10 +494,12 @@ string outro[] =
 	};
 	//cout << outro[d20(rng)%5] << endl << endl;
 	typeWrite(outro[d20(rng)%5],30);
+	cout << '\n' << endl;
 }
 
 void printCredits()
 {
+	clearScreen();
     string credits = R"(
 "See you next time Bone-Brains!"
 
@@ -540,7 +542,8 @@ ASCII Art, resident Dungeon Ghost
         -##############/############################-
            -######/#############################-
               -/#############################-)";
-typeWrite(credits, 30);
+	typeWrite(credits, 30);
+	cout << '\n';
 }
 
 void typeWrite(const std::string& text, unsigned int delayMs)
