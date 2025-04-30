@@ -1,0 +1,13 @@
+name,description,price,itemtype,rarity,healAmount,attackBonus,defBonus,damage
+potion,heals a small amount of hp,5,consumable,1,5,0,0,0
+hi potion,heals a medium amount of hp,15,consumable,2,10,0,0,0
+mega potion,heals a lot of hp,25,consumable,3,25,0,0,0
+sword,a standard steel sword,50,weapon,1,0,1,0,1d6
+mace,a blunt weapon with spikes,60,weapon,1,0,1,0,2d4
+shortsword,a sword that is a hand and a half long,50,weapon,1,0,1,0,1d8
+rapier,a quick weapon for stabbing,100,weapon,2,0,2,0,1d10
+club,a simple weapon for beating,30,weapon,2,0,2,0,2d6
+bastard sword,a large and heavy sword,150,weapon,3,0,3,0,2d8
+iron armour,armour made out of metal,100,armour,2,0,0,2,0
+diamond armour,armour made out of a girl's best friend,300,armour,3,0,0,3,0
+leather armour,armour made from the skin of a cow,50,armour,1,0,0,1,0

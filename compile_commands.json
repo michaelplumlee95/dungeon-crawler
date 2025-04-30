@@ -1,0 +1,47 @@
+[
+  {
+    "directory": "/home/students/pluml008/CS-111/final-project",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c main.cpp",
+    "file": "/home/students/pluml008/CS-111/final-project/main.cpp"
+  },
+  {
+    "directory": "/home/students/pluml008/CS-111/final-project",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/ItemLoader.cpp",
+    "file": "/home/students/pluml008/CS-111/final-project/src/ItemLoader.cpp"
+  },
+  {
+    "directory": "/home/students/pluml008/CS-111/final-project",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/items.cpp",
+    "file": "/home/students/pluml008/CS-111/final-project/src/items.cpp"
+  },
+  {
+    "directory": "/home/students/pluml008/CS-111/final-project",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/monster.cpp",
+    "file": "/home/students/pluml008/CS-111/final-project/src/monster.cpp"
+  },
+  {
+    "directory": "/home/students/pluml008/CS-111/final-project",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/player.cpp",
+    "file": "/home/students/pluml008/CS-111/final-project/src/player.cpp"
+  },
+  {
+    "directory": "/home/students/pluml008/CS-111/final-project",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/rng.cpp",
+    "file": "/home/students/pluml008/CS-111/final-project/src/rng.cpp"
+  },
+  {
+    "directory": "/home/students/pluml008/CS-111/final-project",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/room.cpp",
+    "file": "/home/students/pluml008/CS-111/final-project/src/room.cpp"
+  },
+  {
+    "directory": "/home/students/pluml008/CS-111/final-project",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/shop.cpp",
+    "file": "/home/students/pluml008/CS-111/final-project/src/shop.cpp"
+  }
+  {
+    "directory": "/home/students/pluml008/CS-111/final-project",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/shop.cpp",
+    "file": "/home/students/pluml008/CS-111/final-project/src/MonsterLoader.cpp"
+  }
+]
