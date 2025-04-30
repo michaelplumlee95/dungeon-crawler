@@ -21,6 +21,7 @@ void printIntro();
 void printDeath();
 void printCredits();
 void typeWrite(const std::string& text, unsigned int delayMs);
+void printJohnny();
 
 enum GameState 
 {
@@ -390,15 +391,19 @@ int rarityForDepth(int depth)
 void printIntro()
 {
 	clearScreen();
+	printJohnny();
 	typeWrite("Arise! Arise, my glorious skeletal champion! Crafted from the finest bones I could... eh, find lying around. Welcome back to the land of the living-sort of.", 30);
 	pressAnyKey();
 	clearScreen();
+	printJohnny();
 	typeWrite("Right, introductions. I'm Johnny. Necromancer. Genius. Sufferer of mild-to-severe monster phobia. I may have dropped my Necronomicon in that cursed dungeon over there, and—well—I’m not going back in there. Too many teeth. Too many eyes. Some of them not even attached to anything!", 30);
 	pressAnyKey();
 	clearScreen();
+	printJohnny();
 	typeWrite("So! You’re going in instead. Retrieve my precious book, try not to die too often, and I’ll keep an eye on you from the safety of my totally not monster-infested tower. Oh, and don’t worry—I can talk directly into your skull. No pressure, champ!", 30);
 	pressAnyKey();
 	clearScreen();
+	printJohnny();
 	typeWrite("Now, march your rattling self into that dungeon, fetch my Necronomicon, and try not to get smashed, squished, scorched, or soul-nibbled. I'll be watching from up here-cheering you on! Spiritually. From a safe distance. Preferably with snacks.", 30);
 	typeWrite("Go forth, my bony champion!", 30);
 	pressAnyKey();
@@ -549,4 +554,21 @@ void typeWrite(const std::string& text, unsigned int delayMs)
         std::cout << ch << std::flush;                  // print + flush
         std::this_thread::sleep_for(std::chrono::milliseconds(delayMs));
     }
+}
+
+void printJohnny()
+{
+	cout << R"(     _____
+    /     \
+   | () () |
+   |  __   |
+   | /  \  |
+  /| |  | |\
+ / | |  | | \
+   | |  | |
+   | |  | |
+   |_|  |_|
+  /       \
+ /         \)";
+	cout << '\n';
 }
