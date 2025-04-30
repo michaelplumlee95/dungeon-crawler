@@ -40,7 +40,7 @@ g++ -std=c++17 -Wall -Wextra *.cpp -o game.out
 ## 3  Run
 
 ```bash
-./bin/game.out
+./game.out
 ```
 
 Controls appear in-game (`attack`, `use <item>`, `inventory`, etc.).
