@@ -37,18 +37,18 @@ int main()
 	bool running = true;
 	auto allItems = loadItemsFromCSV("data/item_data.csv");
 	vector<Monster> allMonsters = loadMonstersFromCSV("data/monster_list.csv");
-	Player player("Bob", 5, 14, 1);
+	Player player("Bob", 25, 14, 3);
 	int currentDepth = 0;
 
-	// add a potion to the players inventory
-	for (const Item& i : allItems) 
-	{
-		if (i.getName() == "mace")
-		{
-			player.addItemToInventory(i);
-			break;
-		}
-	}
+//	// add a potion to the players inventory
+//	for (const Item& i : allItems) 
+//	{
+//		if (i.getName() == "mace")
+//		{
+//			player.addItemToInventory(i);
+//			break;
+//		}
+//	}
 
 	while (running)
 	{
