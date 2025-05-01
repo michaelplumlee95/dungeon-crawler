@@ -224,6 +224,13 @@ int main()
 							clearScreen();
 							continue;
 						}
+						else if (cmd == "examine johnny")
+						{
+							clearScreen();
+							printJohnny();
+							typeWrite("Ah, yes! I am Johnny, necromancer extraordinaire, master of the\ndark arts, wielder of forbidden knowledge, and—dare I say—former\nrunner-up in the Ghoulball Regional Finals of '83.\n\nFun Fact, born under a blood moon, raised by a particularly sarcastic cult,\nI quickly rose through the ranks of necromantic academia thanks to\nmy groundbreaking thesis: ‘Skeletons: Nature’s Swiss Army Knife.’\nTruly, I am—\n...Wait. Are you inspecting me? You little bone gremlin! I'm the\nnarrator! You don’t inspect me! Go inspect something with claws and\npoor decisions!\n\nNow quit snooping and get back to finding my Necronomicon, yeah?\nIt's not going to un-curse itself!", 30);
+							continue;
+						}
 						else if (cmd == "inventory")
 						{
 							cout << "Inventory:\n";
@@ -391,19 +398,15 @@ int rarityForDepth(int depth)
 void printIntro()
 {
 	clearScreen();
-	printJohnny();
 	typeWrite("Arise! Arise, my glorious skeletal champion! Crafted from the finest bones I could... eh, find lying around. Welcome back to the land of the living-sort of.", 30);
 	pressAnyKey();
 	clearScreen();
-	printJohnny();
 	typeWrite("Right, introductions. I'm Johnny. Necromancer. Genius. Sufferer of mild-to-severe monster phobia. I may have dropped my Necronomicon in that cursed dungeon over there, and—well—I’m not going back in there. Too many teeth. Too many eyes. Some of them not even attached to anything!", 30);
 	pressAnyKey();
 	clearScreen();
-	printJohnny();
 	typeWrite("So! You’re going in instead. Retrieve my precious book, try not to die too often, and I’ll keep an eye on you from the safety of my totally not monster-infested tower. Oh, and don’t worry—I can talk directly into your skull. No pressure, champ!", 30);
 	pressAnyKey();
 	clearScreen();
-	printJohnny();
 	typeWrite("Now, march your rattling self into that dungeon, fetch my Necronomicon, and try not to get smashed, squished, scorched, or soul-nibbled. I'll be watching from up here-cheering you on! Spiritually. From a safe distance. Preferably with snacks.", 30);
 	typeWrite("Go forth, my bony champion!", 30);
 	pressAnyKey();
